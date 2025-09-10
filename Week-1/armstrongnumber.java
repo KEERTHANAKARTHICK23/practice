@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class armstrongnumber{
     public static void main(String[] args) {
         Scanner kd = new Scanner(System.in);
-        
             System.out.println("Enter a number:");
             int num = kd.nextInt();
             int originalnum=num;
@@ -13,15 +12,15 @@ public class armstrongnumber{
                 sum = (dig*dig*dig)+sum;
                 num=num/10;
             }
-         if(sum==originalnum)
+        if(sum==originalnum)
             {
                 System.out.println("ARMSTRONG NUMBER");
 
             }
-            else
+             else
             {
                 System.out.println("NOT ARMSTRONG NUMBER");
             }
     }
 }
-           
+            

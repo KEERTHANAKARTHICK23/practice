@@ -8,9 +8,9 @@ public class binary{
                     for (int k = 0; k <= a; k += a)
                     System.out.println(i+""+j+""+k);
                 }
-                System.out.println();
             }
         }
+System.out.println();
     }
 }
 }

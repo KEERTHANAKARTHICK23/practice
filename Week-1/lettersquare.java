@@ -4,7 +4,7 @@ public class lettersquare {
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         for (int row = 1; row <= n; row++) {
-            char ch = 'A';
+            char ch = 'a';
             for (int col = 1; col <= n; col++) {
                System.out.print(ch++);
         }
